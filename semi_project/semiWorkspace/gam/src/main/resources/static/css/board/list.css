@@ -1,0 +1,138 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.main-container {
+    display: flex;
+}
+
+main > .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1000;
+}
+
+.content-wrapper{
+    display: grid;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.list-table{
+    border-collapse: collapse;
+    width: 1300px;
+}
+
+.list-table thead th{
+    text-align: center;;
+    border-bottom: 2px solid black;
+    width: 150px;
+}
+
+.list-table thead th:last-child{
+    text-align: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+.list-table tbody td{
+    text-align: center;
+    height: 47px;
+}
+
+input[name="searchValue"]{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    padding: 0%;
+    margin-left: 20px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 30px;
+    background-image: url('/img/icon/search.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+#search-type{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-table tbody tr:hover td{
+    background-color: #1D64F2;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+.list-table tbody tr:hover td a {
+    color: #F2F2F2; /* 링크 색상을 흰색으로 변경 */
+}
+
+
+.list-table tbody tr:hover td:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.list-table tbody tr:hover td:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-bottom-area{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-bottom-area button{
+    display: inline-block;
+    font-size: 16px; /* 글씨 크기 */
+    color: #fff; /* 텍스트 색상 */
+    background-color: #1D64F2; /* 파란색 배경 */
+    border: none; /* 테두리 제거 */
+    border-radius: 5px; /* 둥근 모서리 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    height: 40px;
+}
+
+.page-area{
+    display: flex;
+    justify-content: center;
+}
+
+main .table-area tbody tr:hover{
+    background-color: #1D64F2;
+    color: white;
+    cursor: pointer;
+}
+
+.page-area button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
