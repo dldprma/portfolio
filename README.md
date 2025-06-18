@@ -20,9 +20,14 @@ Flex ERP는 기업 업무를 통합 관리하기 위한 ERP 시스템입니다.
 
 ## 담당 기능 (My Role)
 본 프로젝트에서 다음 기능을 담당하였습니다:
+<img width="1624" alt="Screenshot 2025-03-31 at 23 22 09" src="https://github.com/user-attachments/assets/c60cc7f4-7109-442a-87ab-12a4906f5c03" />
+<img width="1624" alt="Screenshot 2025-03-31 at 23 20 18" src="https://github.com/user-attachments/assets/fc9a518b-c894-4c05-a61f-5c063f6fc46c" />
+
 - 일정 관리 기능 (Schedule Management)
   - 일정 등록/수정/삭제 기능 구현
   - 캘린더 기반 일정 조회 기능
+<img width="1624" alt="Screenshot 2025-03-31 at 23 22 59" src="https://github.com/user-attachments/assets/8d885dc6-eefb-42f7-be39-402c40c6082d" />
+
 - 유선문의 관리 기능 (Phone Reservation Management)
   - 유선문의 등록/수정/삭제 기능 구현
   - 문의 리스트 및 상세 조회 기능 개발
@@ -61,6 +66,12 @@ Workstay는 워케이션(Work + Vacation)을 위한 숙소 및 공간 예약 플
 
 ## 담당 기능 (My Role)
 본 프로젝트에서 다음 기능을 담당하였습니다:
+<img width="1624" alt="Screenshot 2025-04-23 at 19 36 03" src="https://github.com/user-attachments/assets/d9e6a946-357b-4235-a3cf-d48449e9aec5" />
+<img width="1624" alt="Screenshot 2025-04-23 at 19 59 26" src="https://github.com/user-attachments/assets/68cc95b4-509a-42e6-a495-286ae94ba771" />
+<img width="1624" alt="Screenshot 2025-03-31 at 14 07 11" src="https://github.com/user-attachments/assets/a0db67bd-ce87-4bd5-92e3-4e874e502f36" />
+<img width="1624" alt="Screenshot 2025-04-23 at 20 45 17" src="https://github.com/user-attachments/assets/58af62e7-fdec-49c3-a581-4a67c66a026a" />
+<img width="1624" alt="Screenshot 2025-04-23 at 20 45 45" src="https://github.com/user-attachments/assets/4d0c89da-c282-423f-9b63-1aeaac9f66fa" />
+
 - 숙소 예약 기능 (Stay Reservation)
   - 숙소 검색 및 리스트 조회 기능
   - 숙소 상세 페이지 조회 기능
